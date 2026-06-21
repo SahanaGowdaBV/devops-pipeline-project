@@ -19,3 +19,5 @@ Code → GitHub → CI/CD → Docker → Kubernetes
 4. Kubernetes deployment updated
 
 ## 📂 Project Structure# devops-pipeline-project
+## 🏗️ Architecture
+![Architecture](docs/architecture.png)
