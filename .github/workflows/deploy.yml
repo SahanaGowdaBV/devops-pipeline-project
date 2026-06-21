@@ -34,3 +34,7 @@ jobs:
 
     - name: Push Docker Image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-app:latest
+
+    - name: Update Image Tag
+      run: |
+        sed -i "s/tag:.*/tag: latest/" devops-chart/values.yaml
